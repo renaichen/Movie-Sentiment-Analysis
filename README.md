@@ -18,6 +18,9 @@ Log in to the [AWS console](https://console.aws.amazon.com) and go to the SageMa
 
 Now that the repository has been cloned into the notebook instance you may navigate to any of the notebooks that you wish to complete or execute and work with them. Additional instructions are contained in their respective notebooks.
 
+### Notes
+The web API uses API Gateway on AWS, which is further put into pipline of Lambda. But it is used only once and deleted later. So if this code is to be used, one needs to create new entry points either via AWS resources or other utilities.
+
 
 ### Relevant Tutorials
 
